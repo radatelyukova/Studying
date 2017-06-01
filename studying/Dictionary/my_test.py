@@ -7,7 +7,7 @@
 #   08.12.2016  Created by: Rada Telyukova
 ################################################################################
 
-me = {'name': 'Rada', 'age': 9, 'class': '3B'}
+me = {'name': 'Rada', 'age': 9, 'class': '3Б'}
 print(me)
 print(me.keys())
 print(me.values())

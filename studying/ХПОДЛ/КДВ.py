@@ -12,4 +12,4 @@ import time
 print('Кто добрее всех?')
 time.sleep(2)
 
-print('Рада')
+print('Лейсян')

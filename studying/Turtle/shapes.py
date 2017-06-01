@@ -5,6 +5,7 @@
 #   <Executable Module Purpose>
 #
 #   28.01.2017  Created by: Rada Telyukova
+#   01.06.2017  Last update
 ################################################################################
 
 import turtle
@@ -24,7 +25,7 @@ shapes=['Точка', 'Линия',      'Треугольник', 'Квадра
 colors=['white', 'lightgreen',  'red',        'yellow',  'lightblue',    'green',         'purple',         'cyan',         'maroon',          'pink']
 
 # Loop: shapes
-for i in range(10):
+for i in range(len(shapes)):
     time.sleep(1)
     t.clear()
     t.pencolor(colors[i])
