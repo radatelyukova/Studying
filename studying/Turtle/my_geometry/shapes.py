@@ -2,9 +2,9 @@
 ################################################################################
 #   shapes.py
 #
-#   <Executable Module Purpose>
+#   Shapes Library
 #
-#   02.02.2017  Created by: Rada Telyukova
+#   02.06.2017  Created by: Rada Telyukova
 ###############################################################################
 
 import turtle
@@ -22,19 +22,10 @@ def draw_line(x1, y1, x2, y2, color, size):
     t.hideturtle()
 
 def draw_rectangle(x1, y1, x2, y2, color, size):
-    t.fillcolor('olive')
+    t.fillcolor(color)
     t.begin_fill()
     draw_line(x1, y1, x2, y1, color, size)
     draw_line(x2, y1, x2, y2, color, size)
     draw_line(x2, y2, x1, y2, color, size)
     draw_line(x1, y2, x1, y1, color, size)
     t.end_fill()
-    
-
-#draw_line(-20, 50, 100, 100, 'green', 10)
-#draw_line(100, 30, 100, 100, 'purple', 20)
-
-draw_rectangle(200, 300, -100, 80, 'purple', 5)
-
-
-turtle.done()

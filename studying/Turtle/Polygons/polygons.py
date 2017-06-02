@@ -1,11 +1,11 @@
 #! /usr/bin/env python3
 ################################################################################
-#   shapes.py
+#   polygons.py
 #
-#   <Executable Module Purpose>
+#   Draws polygons and titles
 #
 #   28.01.2017  Created by: Rada Telyukova
-#   01.06.2017  Last update
+#   02.06.2017  Last update
 ################################################################################
 
 import turtle
