@@ -21,8 +21,8 @@ t.pensize(5)
 t.speed(2)
 t.shape('turtle')
 
-shapes=['Точка', 'Линия',      'Треугольник', 'Квадрат', 'Пятиугольник', 'Шестиугольник', 'Семиугольник', 'Восьмиугольник', 'Девятиугольник', 'Деситиугольник']
-colors=['white', 'lightgreen',  'red',        'yellow',  'lightblue',    'green',         'purple',         'cyan',         'maroon',          'pink']
+shapes=['Точка', 'Линия',     'Треугольник', 'Квадрат', 'Пятиугольник', 'Шестиугольник', 'Семиугольник', 'Восьмиугольник', 'Девятиугольник', 'Деситиугольник']
+colors=['white', 'lightgreen', 'red',        'yellow',  'lightblue',    'green',         'purple',         'cyan',         'maroon',          'pink']
 
 # Loop: shapes
 for i in range(len(shapes)):

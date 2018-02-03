@@ -13,5 +13,3 @@ while(True):
     print(random.randint(1,6), random.randint(1,6))
     answer = input('продолжить(y/n)? ')
     if (answer == 'n'): sys.exit("stop")
-    
-    
